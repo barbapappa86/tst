@@ -34,7 +34,10 @@
       }
     },
     "accessPolicies": {
-      "type": "array"
+      "type": "array",
+      "metadata": {
+        "description": "Specifies accessPolicies with which the KeyVault can be accessed"
+      }
     }
   },
   "resources": [
