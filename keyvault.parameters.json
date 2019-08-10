@@ -7,6 +7,28 @@
       },
     "skuName": {
         "value": "Standard"
-      }
+      },
+        "accessPolicies": {
+            "value": [
+                {
+                    "objectId": "c78b9141-2757-4222-a885-fb88dfa12d7d",
+                    "tenantId": "b9750873-32fb-4b22-90a3-6d49ca299511",
+                    "permissions": {
+                        "keys": [
+                            "Get",
+                            "List",
+                        ],
+                        "secrets": [
+                            "Get",
+                            "List",
+                        ],
+                        "certificates": [
+                            "Get",
+                            "List",
+                        ]
+                    }
+                }
+            ]
+        }
     }
   }
