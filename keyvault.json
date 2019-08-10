@@ -32,6 +32,9 @@
       "metadata": {
         "description": "Specifies whether the key vault is a standard vault or a premium vault."
       }
+    },
+    "accessPolicies": {
+      "type": "array"
     }
   },
   "resources": [
@@ -45,7 +48,8 @@
         "sku": {
           "name": "[parameters('skuName')]",
           "family": "A"
-        }
+        },
+        "accessPolicies": "[parameters('accessPolicies')]"
       }
     }
   ]

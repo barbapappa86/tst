@@ -2,12 +2,12 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-      "keyVaultName": {
-        "value": "bar-tst-kvt"
-      },
-    "skuName": {
-        "value": "Standard"
-      },
+        "keyVaultName": {
+            "value": "bar-tst-kvt"
+        },
+        "skuName": {
+            "value": "Standard"
+        },
         "accessPolicies": {
             "value": [
                 {
@@ -16,19 +16,19 @@
                     "permissions": {
                         "keys": [
                             "Get",
-                            "List",
+                            "List"
                         ],
                         "secrets": [
                             "Get",
-                            "List",
+                            "List"
                         ],
                         "certificates": [
                             "Get",
-                            "List",
+                            "List"
                         ]
                     }
                 }
             ]
         }
     }
-  }
+}
