@@ -1,0 +1,6 @@
+az login 
+az group create --name bar-tst-rg --location "West Europe"
+az group deployment validate --resource-group bar-tst-rg --template-file keyvault.json --parameters '@keyvault.parameters.json'
+az group deployment create --name KeyVault --resource-group bar-tst-rg --template-file keyvault.json --parameters '@keyvault.parameters.json'
+
+  
