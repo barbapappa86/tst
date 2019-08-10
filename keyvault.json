@@ -36,7 +36,7 @@
     "accessPolicies": {
       "type": "array",
       "metadata": {
-        "description": "Specifies accessPolicies with which the KeyVault can be accessed"
+        "description": "Specifies accessPolicies with which the KeyVault can be accessed."
       }
     }
   },
